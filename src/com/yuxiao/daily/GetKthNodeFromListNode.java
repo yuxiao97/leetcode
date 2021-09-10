@@ -1,9 +1,9 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 /**
  * 剑指 Offer 22. 链表中倒数第k个节点
  *
- * @author yangjunwei
+ * @author yuxiao
  * @date 2021-09-02
  */
 public class GetKthNodeFromListNode {

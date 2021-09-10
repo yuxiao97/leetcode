@@ -1,4 +1,4 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 import java.util.Random;
 
@@ -13,7 +13,7 @@ import java.util.Random;
  * 链接：https://leetcode-cn.com/problems/implement-rand10-using-rand7
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
- * @author yangjunwei
+ * @author yuxiao
  * @date 2021-09-05 09:24
  */
 public class ImplementRand10UsingRand7 {

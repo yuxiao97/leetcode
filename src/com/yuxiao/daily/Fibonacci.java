@@ -1,4 +1,4 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 /**
  * 剑指 Offer 10- I. 斐波那契数列

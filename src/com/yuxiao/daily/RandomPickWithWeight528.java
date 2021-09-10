@@ -1,4 +1,4 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -17,7 +17,7 @@ import java.util.TreeMap;
  * 链接：https://leetcode-cn.com/problems/random-pick-with-weight
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
- * @author yangjunwei
+ * @author yuxiao
  * @date 2021-08-30 07:32
  */
 public class RandomPickWithWeight528 {

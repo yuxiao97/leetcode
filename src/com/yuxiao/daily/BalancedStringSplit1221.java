@@ -1,4 +1,4 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 /**
  * 1221. 分割平衡字符串

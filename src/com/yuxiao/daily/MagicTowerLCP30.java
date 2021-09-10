@@ -1,4 +1,4 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 import java.util.*;
 
@@ -34,7 +34,7 @@ import java.util.*;
  * 链接：https://leetcode-cn.com/problems/p0NxJO
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
- * @author yangjunwei
+ * @author yuxiao
  * @date 2021-09-01 15:21
  */
 public class MagicTowerLCP30 {

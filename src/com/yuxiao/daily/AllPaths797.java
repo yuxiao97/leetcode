@@ -1,4 +1,4 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ import java.util.Stack;
  * 链接：https://leetcode-cn.com/problems/all-paths-from-source-to-target
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
- * @author yangjunwei
+ * @author yuxiao
  * @date 2021-08-26 22:45
  */
 public class AllPaths797 {

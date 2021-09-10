@@ -1,4 +1,4 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 /**
  * 1588. 所有奇数长度子数组的和
@@ -34,7 +34,7 @@ package com.yuxiao;
  * 链接：https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
- * @author yangjunwei
+ * @author yuxiao
  * @date 2021-08-29 09:45
  */
 public class OddLengthSubarraysSum1588 {

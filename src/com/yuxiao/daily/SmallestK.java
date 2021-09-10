@@ -1,4 +1,4 @@
-package com.yuxiao;
+package com.yuxiao.daily;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
