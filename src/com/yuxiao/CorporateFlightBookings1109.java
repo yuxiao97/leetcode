@@ -41,26 +41,50 @@ public class CorporateFlightBookings1109 {
 
 
     public static void main(String[] args) {
-        int[][] bookings = {{1,2,10},{2,3,20},{2,5,25}};
+        int[][] bookings = {{1, 2, 10}, {2, 3, 20}, {2, 5, 25}};
         int flight = 5;
         System.out.println(Arrays.toString(corpFlightBookings(bookings, flight)));
     }
 
 
+    /**
+     * 使用差分发进行计算(性能拉满)
+     *
+     * @param bookings 订票规则
+     * @param n        总航班数
+     * @return
+     */
+    public static int[] corpFlightBookingsDiffArray(int[][] bookings, int n) {
+        int[] flightSeats = new int[n];
+
+        for (int[] booking : bookings) {
+            flightSeats[booking[0] - 1] += booking[2];
+            if (booking[1] < n) {
+                flightSeats[booking[1]] -= booking[2];
+            }
+        }
+
+        for (int i = 1; i < flightSeats.length; i++) {
+            flightSeats[i] += flightSeats[i - 1];
+        }
+
+        return flightSeats;
+    }
+
 
     /**
      * @param bookings 订票规则
-     * @param n 总航班数
+     * @param n        总航班数
      * @return
      */
     public static int[] corpFlightBookings(int[][] bookings, int n) {
         int[] flightSeats = new int[n];
         int length = bookings.length;
         int[] booking;
-        for(int i=0; i<length; i++) {
+        for (int i = 0; i < length; i++) {
             booking = bookings[i];
             int from = booking[0], to = booking[1], seats = booking[2];
-            for(int j=from-1; j<to; j++) {
+            for (int j = from - 1; j < to; j++) {
                 flightSeats[j] += seats;
             }
         }
